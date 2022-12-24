@@ -1,0 +1,45 @@
+@font-face {
+    src: url("CursedTimer.ttf");
+    font-family: score;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 500px;
+    background-image: url("court.jpg");
+    background-size: cover;
+    border: 5px solid red;
+    border-radius: 10px;
+  
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    margin: 30px auto 40px auto;
+    width: 160px;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+}
+p{
+    font-family: score;
+    font-size: 60px;
+    background-color: black;
+    color: orangered;
+    margin: 0px auto 25px;
+    padding: 25px 0px;
+    border-radius: 10px;
+}
+.btn{
+   background-color: orangered;
+   font-family: score;
+   height: 35px;
+   padding: 3px 6px;
+   font-size: 18px;
+   border-radius: 5px;
+
+}
